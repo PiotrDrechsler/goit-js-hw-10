@@ -28,7 +28,13 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
 }
+
+.country-list__item:hover,
+.country-list__item:focus {
+  background-color: #083a32
+} 
 
 .country-list__image {
   padding: 5px;
@@ -57,7 +63,7 @@ ul {
 }
 
 .search-box_container {   
-  background: #0f574b
+  background: #0f574b;
   padding: 5px;
   
 }
